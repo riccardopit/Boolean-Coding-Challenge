@@ -1,0 +1,88 @@
+body{
+  background-image: url(img/background.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+header{
+  text-align: center;
+}
+
+.container{
+  height: 550px;
+  width: 800px;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin: auto;
+  padding: 5%;
+  border-radius: 15px;
+}
+
+.logo{
+  width: 200px;
+}
+
+.logo-text{
+  color: rgb(0,221,0);
+  font-size: 25px;
+  font-weight: bold;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+.commands{
+  width: 100%;
+  background-color: rgb(0,221,0);
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.button-text{
+  font-size: 13px;
+}
+
+main{
+  color: white;
+}
+
+.Monopattino{
+  padding-top: 20px;
+  box-sizing: border-box;
+}
+
+.selection{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.location, .charge{
+  font-size: 12px;
+}
+
+.row{
+  padding-top: 4px;
+}
+
+.arrow:before{
+  content: "\21A6";
+}
+
+.charge-status{
+  height: 25px;
+  border-radius: 5px;
+}
+
+.Gino22 .charge-status{
+  width: 30%;
+  background-color: rgb(245,180,83);
+}
+
+.Mike24 .charge-status{
+  width: 60%;
+  background-color: rgb(30,195,30);
+}
+
+.Fede154 .charge-status{
+  width: 15%;
+  background-color: rgb(190,65,65);
+}
